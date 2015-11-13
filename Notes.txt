@@ -1,0 +1,11 @@
+- Build with 
+
+
+On IIS Interactions:
+---
+http://mainlydata.kubadev.com/installers/extending-nullsoft-installer-to-talk-to-iis/
+	Recommends NsisIIS
+		Suggests that it can't work with virtual directories on non-default websites (yuck).
+	NsisIIS website confirms: `TODO: Adding support for Virtual Directories inside a Web Site.`
+	
+Alternative is calling appcmd.exe (or a combination of NsisIIS and appcmd.
